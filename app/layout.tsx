@@ -15,8 +15,16 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+  <>
     <html lang="en" data-theme="black">
+      <head>
+        <meta name="title" content="Kevin Lee CV"/>
+        <meta name="description" content="Cloud Porfolio"/>
+        <meta name="author" content="Kevin Lee"/>
+        <meta name="keywords" content="AWS, Cloud, CI/CD, S3, Cloudfront, React, Python, Bash, Porfolio, SIEM, Lambda, Splunk"/>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
+  </>
   )
 }

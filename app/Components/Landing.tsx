@@ -18,9 +18,6 @@ const Landing = () => {
   return (
     <>
       <div id='landing' className="hero min-h-screen bg-base-200">
-        <div>
-        <title>CV-Site</title>
-        </div>
         <div className="hero-content text-center">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold">Hi there</h1>
@@ -28,12 +25,10 @@ const Landing = () => {
             <div className='text-xl'>
               I am a {buzzWords[indexState]} Engineer
             </div>
-
           </div>
         </div>
       </div>
     </>
-
   )
 }
 
