@@ -5,6 +5,19 @@ import Link from 'next/link'
 // Style Headers
 
 export const Skills = () => {
+
+//create a for loop to iterate through the skills array and create a list of skills to display on the page
+const skills = ['Cloud', 'Languages', 'Tools', 'Platforms']
+for (let i = 0; i < skills.length; i++) {
+    console.log(skills[i]);
+}
+
+//create a display for the skills array
+console.log(skills);
+
+
+
+
     return (
         <>
             <div id='skills' className="text-4xl font-bold flex justify-center bg-primary">

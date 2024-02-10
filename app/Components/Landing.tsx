@@ -17,6 +17,11 @@ const Landing = () => {
   }, [buzzWords.length]);
   return (
     <>
+        <title>Kevin Lee CV</title>
+        <meta name="description" content="Cloud Porfolio" />
+        <meta name="title" content="Kevin Lee CV" />
+        <meta name="keywords" content="Cloud, AWS, Azure, GCP, DevOps, Python, C#, TypeScript, SQL, CI/CD, S3, Cloudfront, React, Python, Bash, Porfolio, Splunk, Lambda" />
+    
       <div id='landing' className="hero min-h-screen bg-base-200">
         <div className="hero-content text-center">
           <div className="max-w-md">
