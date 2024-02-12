@@ -26,7 +26,7 @@ const Landing = () => {
         <div className="hero-content text-center">
           <div className="max-w-md">
             <p className="py-6 text-4xl">I'm Kevin</p>
-            <div className='text-xl'>
+            <div className='text-xl pb-52'>
               I am a {buzzWords[indexState]} Engineer
             </div>
           </div>

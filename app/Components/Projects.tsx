@@ -14,7 +14,7 @@ const Projects = () => {
 
             <div className="card bg-base-100 mb-32">
                 <div className="card-body items-center justify-center">
-                    <h2 className="card-title">CV-Site</h2>
+                    <h2 className="card-title text-2xl font-semibold">CV-Site</h2>
                     <br />- Built an App with React, Next.js, DaisyUI, Tailwind CSS, and TypeScript.
                     <br />- Designed a CloudFront distribution with origin access control, and invalidations.
                     <br />- Created custom error pages for 403 and 404 error codes.
@@ -28,7 +28,7 @@ const Projects = () => {
 
             <div className="card bg-base-100 mb-32">
                 <div className="card-body items-center justify-center">
-                    <h2 className="card-title">Lambda Image Resizer</h2>
+                    <h2 className="card-title text-2xl font-semibold">Lambda Image Resizer</h2>
                     <br />- The Image-Resizer function uses a S3 bucket as the trigger.
                     <br />- The trigger invokes the Lambda function asynchronously.
                     <br />- Image-Resizer reformats the image in the S3 bucket

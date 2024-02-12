@@ -1,26 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
 
-// To Do:
-// Style Headers
-
 export const Skills = () => {
-
-//create a for loop to iterate through the skills array and create a list of skills to display on the page
-const skills = ['Cloud', 'Languages', 'Tools', 'Platforms']
-for (let i = 0; i < skills.length; i++) {
-    console.log(skills[i]);
-}
-
-//create a display for the skills array
-console.log(skills);
-
-
-
 
     return (
         <>
-            <div id='skills' className="text-4xl font-bold flex justify-center bg-primary">
+            <div id='skills' className="text-4xl font-bold flex justify-center bg-base-200 pb-12">
                 <h1>
                     Skills
                 </h1>
@@ -29,8 +14,8 @@ console.log(skills);
             <div className='sm:hidden'>
                 <div id='skills' className="collapse bg-primary items-center justify-center">
                     <input type="radio" name="my-accordion-1" />
-                    <div className="collapse-title text-xl font-medium">Cloud</div>
-                    <div className="collapse-content primary-content">
+                    <div className="collapse-title text-2xl font-semibold">Cloud</div>
+                    <div className="collapse-content primary-content list-none">
                         <li><Link href="https://aws.amazon.com/s3/">S3</Link></li>
                         <li><Link href="https://aws.amazon.com/route53/">Route 53</Link></li>
                         <li><Link href="https://aws.amazon.com/ec2/">EC2</Link></li>
@@ -43,8 +28,8 @@ console.log(skills);
                 </div>
                 <div className="collapse bg-primary items-center justify-center">
                     <input type="radio" name="my-accordion-1" />
-                    <div className="collapse-title text-xl font-medium">Languages</div>
-                    <div className="collapse-content primary-content">
+                    <div className="collapse-title text-2xl font-semibold">Languages</div>
+                    <div className="collapse-content primary-content list-none">
                         <li><Link href="https://www.gnu.org/software/bash/">Bash</Link></li>
                         <li><Link href="https://www.python.org/">Python</Link></li>
                         <li><Link href="https://dotnet.microsoft.com/en-us/languages/csharp">C#</Link></li>
@@ -55,8 +40,8 @@ console.log(skills);
                 </div>
                 <div className="collapse bg-primary items-center justify-center">
                     <input type="radio" name="my-accordion-1" />
-                    <div className="collapse-title text-xl font-medium bg-primary">Tools</div>
-                    <div className="collapse-content primary-content">
+                    <div className="collapse-title text-2xl font-semibold">Tools</div>
+                    <div className="collapse-content primary-content list-none">
                         <li><Link href="https://www.splunk.com/" >Splunk</Link></li>
                         <li><Link href="https://react.dev/" >React</Link></li>
                         <li><Link href="https://www.wireshark.org/" >Wireshark</Link></li>
@@ -67,8 +52,8 @@ console.log(skills);
                 </div>
                 <div id='skills' className="collapse bg-primary items-center justify-center">
                     <input type="radio" name="my-accordion-1" />
-                    <div className="collapse-title text-xl font-medium">Platforms</div>
-                    <div className="collapse-content primary-content">
+                    <div className="collapse-title text-2xl font-semibold">Platforms</div>
+                    <div className="collapse-content primary-content list-none">
                         <li><Link href="https://aws.amazon.com/">AWS</Link></li>
                         <li><Link href="https://ubuntu.com/">Ubuntu</Link></li>
                         <li><Link href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux">RHEL</Link></li>
@@ -77,9 +62,9 @@ console.log(skills);
             </div>
 
             <div className="hidden sm:block">
-                <div className='flex'>
+                <div className='flex list-none'>
                     <div id='skills' className="bg-primary flex-row flex-auto pl-24">
-                        <div className="text-xl font-medium">Cloud</div>
+                        <div className="text-2xl font-semibold pb-2">Cloud</div>
                         <div className="">
                             <li><Link href="https://aws.amazon.com/s3/">S3</Link></li>
                             <li><Link href="https://aws.amazon.com/route53/">Route 53</Link></li>
@@ -92,7 +77,7 @@ console.log(skills);
                         </div>
                     </div>
                     <div className="bg-primary flex-row flex-auto">
-                        <div className="text-xl font-medium">Languages</div>
+                        <div className="text-2xl font-semibold pb-2">Languages</div>
                         <div className="">
                             <li><Link href="https://www.gnu.org/software/bash/">Bash</Link></li>
                             <li><Link href="https://www.python.org/">Python</Link></li>
@@ -103,18 +88,20 @@ console.log(skills);
                         </div>
                     </div>
                     <div className="bg-primary flex-row flex-auto">
-                        <div className="text-xl font-medium bg-primary">Tools</div>
+                        <div className="text-2xl font-semibold pb-2">Tools</div>
                         <div className="">
                             <li><Link href="https://www.splunk.com/" >Splunk</Link></li>
                             <li><Link href="https://react.dev/" >React</Link></li>
                             <li><Link href="https://www.wireshark.org/" >Wireshark</Link></li>
                             <li><Link href="https://www.jenkins.io/" >Jenkins</Link></li>
+                            <li><Link href="https://github.com/features/actions" >GitHub Actions</Link></li>
+                            <li><Link href="https://www.terraform.io/" >Terraform</Link></li>
                             <li><Link href="https://www.ibm.com/qradar" >QRadar</Link></li>
                             <li><Link href="https://logrhythm.com/" >LogRhythm</Link></li>
                         </div>
                     </div>
                     <div id='skills' className=" bg-primary flex-row flex-auto">
-                        <div className="text-xl font-medium">Platforms</div>
+                        <div className="text-2xl font-semibold pb-2">Platforms</div>
                         <div className="">
                             <li><Link href="https://aws.amazon.com/">AWS</Link></li>
                             <li><Link href="https://ubuntu.com/">Ubuntu</Link></li>

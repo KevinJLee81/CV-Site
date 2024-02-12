@@ -8,7 +8,7 @@ import Skills from './Components/Skills';
 
 export default function Home() {
   return (
-    <div className='font-mono'>
+    <div className='font-sans'>
       <Navigation />
       <Landing />
       <Skills />
