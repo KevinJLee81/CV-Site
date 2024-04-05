@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "website" {
-  bucket = "your-s3-bucket-name"
+  bucket = "cv-react-app"
   acl    = "public-read"
 
   website {

@@ -32,7 +32,7 @@ const Projects = () => {
                     <br />- The Image-Resizer function uses a S3 bucket as the trigger.
                     <br />- The trigger invokes the Lambda function asynchronously.
                     <br />- Image-Resizer reformats the image in the S3 bucket
-                    and saves a copy to a sepreate s3 bucket.
+                    and saves a copy to a separate s3 bucket.
                     <div className="card-actions justify-end">
                         <button className="btn btn-primary"><Link href="https://github.com/KevinJLee81/ImageResizer/blob/main/README.md">View Project</Link></button>
                     </div>

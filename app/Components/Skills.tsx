@@ -90,14 +90,15 @@ export const Skills = () => {
                     <div className="bg-primary flex-row flex-auto">
                         <div className="text-2xl font-semibold pb-2">Tools</div>
                         <div className="">
-                            <li><Link href="https://www.splunk.com/" >Splunk</Link></li>
-                            <li><Link href="https://react.dev/" >React</Link></li>
-                            <li><Link href="https://www.wireshark.org/" >Wireshark</Link></li>
-                            <li><Link href="https://www.jenkins.io/" >Jenkins</Link></li>
-                            <li><Link href="https://github.com/features/actions" >GitHub Actions</Link></li>
-                            <li><Link href="https://www.terraform.io/" >Terraform</Link></li>
-                            <li><Link href="https://www.ibm.com/qradar" >QRadar</Link></li>
-                            <li><Link href="https://logrhythm.com/" >LogRhythm</Link></li>
+                            <li><Link href="https://www.splunk.com/">Splunk</Link></li>
+                            <li><Link href="https://react.dev/">React</Link></li>
+                            <li><Link href="https://www.wireshark.org/">Wireshark</Link></li>
+                            <li><Link href="https://www.jenkins.io/">Jenkins</Link></li>
+                            <li><Link href="https://github.com/features/actions">GitHub Actions</Link></li>
+                            <li><Link href="https://www.terraform.io/">Terraform</Link></li>
+                            <li><Link href="https://www.docker.com/">Docker</Link></li>
+                            <li><Link href="https://www.ibm.com/qradar">QRadar</Link></li>
+                            <li><Link href="https://logrhythm.com/">LogRhythm</Link></li>
                         </div>
                     </div>
                     <div id='skills' className=" bg-primary flex-row flex-auto">
