@@ -1,19 +1,6 @@
-import { The_Nautigal } from "next/font/google";
 import React from "react";
 
 export const Contact = () => {
-  const handleCheckboxChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const isChecked = event.target.checked;
-    // Add your if statement here based on isChecked
-    if (isChecked) {
-      // Code to execute if the checkbox is checked
-    } else {
-      // Code to execute if the checkbox is not checked
-    }
-  };
-
-  // Rest of the code...
-
   return (
     <>
       <footer className="footer footer-center bg-base-100 text-base-content rounded fixed bottom-0 py-2">
