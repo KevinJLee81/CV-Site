@@ -1,3 +1,9 @@
+- Built an App with React, Next.js, DaisyUI, Tailwind CSS, and TypeScript.
+- Designed a CloudFront distribution with origin access control, and invalidations.
+- Created custom error pages for 403 and 404 error codes.
+- The distribution has an S3 origin and uses a SSL/TLS certificate issued by ACM.
+- Used Route 53 to manage domain name servers, create records, and validate certificates.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
