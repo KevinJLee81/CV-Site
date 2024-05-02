@@ -23,6 +23,7 @@ const Landing = () => {
         <meta name="keywords" content="Cloud, AWS, Azure, GCP, DevOps, Python, C#, TypeScript, SQL, CI/CD, S3, Cloudfront, React, Python, Bash, Porfolio, Splunk, Lambda"/>
     
       <div id='landing' className="hero min-h-screen bg-base-100">
+        {<img src="../../bg.svg" className="absolute inset-0 w-full h-full object-cover" />}
         <div className="hero-content text-center">
           <div className="max-w-md">
             <p className="py-6 text-4xl">I'm Kevin</p>
