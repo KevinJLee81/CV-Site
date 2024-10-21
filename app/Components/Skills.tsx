@@ -15,13 +15,11 @@ export const Skills = () => {
 
         {/* Mobile View */}
         <div className="sm:hidden">
-          <div
-            id="skills"
-            className="collapse bg-100 items-center justify-center"
-          >
-            <input type="radio" name="my-accordion-1" />
+          
+          <div id="skills" className="collapse bg-100">
+            <input type="radio" name="my-accordion-1"/>
             <div className="collapse-title text-2xl font-semibold">Cloud</div>
-            <div className="collapse-content 100-content list-none">
+            <div className="collapse-content 100-content list-none text-center">
               <li>
                 <Link href="https://aws.amazon.com/s3/">S3</Link>
               </li>
@@ -50,12 +48,11 @@ export const Skills = () => {
               </li>
             </div>
           </div>
-          <div className="collapse bg-100 items-center justify-center">
-            <input type="radio" name="my-accordion-1" />
-            <div className="collapse-title text-2xl font-semibold">
-              Languages
-            </div>
-            <div className="collapse-content 100-content list-none">
+
+          <div className="collapse bg-100">
+            <input type="radio" name="my-accordion-1 text-center"/>
+            <div className="collapse-title text-2xl font-semibold">Languages</div>
+            <div className="collapse-content 100-content list-none text-center">
               <li>
                 <Link href="https://www.gnu.org/software/bash/">Bash</Link>
               </li>
@@ -72,10 +69,11 @@ export const Skills = () => {
               </li>
             </div>
           </div>
-          <div className="collapse bg-100 items-center justify-center">
-            <input type="radio" name="my-accordion-1" />
+
+          <div className="collapse bg-100">
+            <input type="radio" name="my-accordion-1 text-center"/>
             <div className="collapse-title text-2xl font-semibold">Tools</div>
-            <div className="collapse-content 100-content list-none">
+            <div className="collapse-content 100-content list-none text-center">
               <li>
                 <Link href="https://react.dev/">React</Link>
               </li>
@@ -95,15 +93,11 @@ export const Skills = () => {
               </li>
             </div>
           </div>
-          <div
-            id="skills"
-            className="collapse bg-100 items-center justify-center"
-          >
-            <input type="radio" name="my-accordion-1" />
-            <div className="collapse-title text-2xl font-semibold">
-              Platforms
-            </div>
-            <div className="collapse-content 100-content list-none">
+
+          <div className="collapse bg-100 items-center">
+            <input type="radio" name="my-accordion-1 text-center"/>
+            <div className="collapse-title text-2xl font-semibold">Platforms</div>
+            <div className="collapse-content 100-content list-none text-center">
               <li>
                 <Link href="https://aws.amazon.com/">AWS</Link>
               </li>
@@ -117,15 +111,11 @@ export const Skills = () => {
               </li>
             </div>
           </div>
-          <div
-            id="skills"
-            className=" collapse bg-100 items-center justify-center"
-          >
-            <input type="radio" name="my-accordion-1" />
-            <div className="collapse-title text-2xl font-semibold">
-              Security
-            </div>
-            <div className="collapse-content 100-content list-none">
+
+          <div className=" collapse bg-100 items-center">
+            <input type="radio" name="my-accordion-1 text-center"/>
+            <div className="collapse-title text-2xl font-semibold">Security</div>
+            <div className="collapse-content 100-content list-none text-center">
               <li>
                 <Link href="https://www.splunk.com/">Splunk</Link>
               </li>
@@ -140,6 +130,7 @@ export const Skills = () => {
               </li>
             </div>
           </div>
+
         </div>
 
         {/* Desktop View */}
